@@ -20,5 +20,6 @@ while dividendo > 0:
 # Salidas
 #print(numero, binario)
 #print(f"El número {numero} en binario es {binario}")
-print("Decimal:", numero)
-print("Binario:", binario)
+#print("Decimal:", numero)
+print(binario)
+#print("Binario:", binario)
