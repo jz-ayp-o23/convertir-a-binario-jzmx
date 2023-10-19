@@ -18,4 +18,4 @@ while dividendo > 0:
 #    binario = "0" * (8 - len(binario) % 8) + binario
 
 # Salidas
-print(numero, binario)
+print(f"El número {numero} en binario es {binario}")
