@@ -14,12 +14,12 @@ while dividendo > 0:
     binario = str(residuo) + binario
 
 # Completar a múltiplo de ocho dígitos
-#if len(binario) % 8 != 0:
-#    binario = "0" * (8 - len(binario) % 8) + binario
+if len(binario) % 8 != 0:
+    binario = "0" * (8 - len(binario) % 8) + binario
 
 # Salidas
 #print(numero, binario)
 #print(f"El número {numero} en binario es {binario}")
 #print("Decimal:", numero)
-#print(binario)
-print("Binario:", binario)
+print(binario)
+#print("Binario:", binario)
